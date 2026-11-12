@@ -8,6 +8,8 @@ Sistema web empresarial y modular desarrollado con **PHP 8.4** y **PostgreSQL 16
 ## 📋 Información del Proyecto y Gestión de Configuración
 
 - **Nombre del Sistema:** Sistema Integral de Gestión de Restaurante (SIGR)
+- **Institución:** Corporación Tecnológica del Oriente
+- **Ciudad:** Bucaramanga, Santander, Colombia
 - **Autor / Integrante:** Juan Pablo López Diaz
 - **Asignatura:** Gestión del Software
 - **Fecha de Establecimiento de Línea Base:** 11 de Noviembre de 2026
