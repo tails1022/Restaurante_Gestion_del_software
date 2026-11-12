@@ -1,0 +1,23 @@
+# Entorno y credenciales sensibles
+.env
+.env.local
+.env.*.local
+
+# Dependencias de Composer
+/vendor/
+composer.phar
+
+# Carpetas y archivos de documentación / auditoría
+/zap_security/
+*.docx
+*.pdf
+*.log
+generate_pdf.py
+
+# Archivos del sistema y del editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace

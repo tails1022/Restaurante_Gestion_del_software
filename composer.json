@@ -1,0 +1,14 @@
+{
+    "name": "universidad/reservas-restaurante",
+    "description": "Sistema de Gestion de Pedidos y Reservas para Restaurantes - Entorno Academico OWASP ZAP",
+    "type": "project",
+    "require": {
+        "php": ">=8.1",
+        "firebase/php-jwt": "^6.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
