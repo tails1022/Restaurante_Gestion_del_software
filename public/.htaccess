@@ -1,0 +1,11 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Si la petición es para un archivo o directorio existente en public, servirlo directamente
+    RewriteCond %{REQUEST_FILENAME} -f [OR]
+    RewriteCond %{REQUEST_FILENAME} -d
+    RewriteRule ^ - [L]
+
+    # Redirigir todas las peticiones a la API hacia public/api/index.php
+    RewriteRule ^api/(.*)$ api/index.php [QSA,L]
+</IfModule>
